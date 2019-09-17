@@ -7,7 +7,7 @@ a. singly linked lists */
 using namespace std;
 
 int main(){
-	Lista_enlazada<int> l_int;
+    Lista_enlazada<int> l_int;
     l_int.insertar(2);
     l_int.insertar(1);
     l_int.insertar(3);
