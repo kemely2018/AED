@@ -1,0 +1,5 @@
+9.	De acuerdo con el estándar de C ++, para el vector, una llamada a push_back, pop_back, insert o erase ,
+invalida (potencialmente hace obsoleto) todos los iteradores que visualizan el vector. ¿Por qué?
+RESPUESTA:
+Todas las funciones mencionadas pueden requerir la creación de un nuevo array para contener los datos.
+Cuando esto ocurre, todos los punteros antiguos (iteradores) no son válidos.
